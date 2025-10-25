@@ -11,7 +11,7 @@ Just paste a job posting URL — the app analyzes the job, finds matching portfo
 - **Automated Email Writing:** Crafts contextually aware, personalized cold emails.
 - **Interactive UI:** Built with Streamlit for instant use and live feedback.
 
----
+
 
 ## 🧠 Tech Stack
 - **Frontend:** Streamlit  
@@ -20,39 +20,14 @@ Just paste a job posting URL — the app analyzes the job, finds matching portfo
 - **Language:** Python  
 - **Other Tools:** OpenAI API (or Groq API), CSV-based portfolio storage
 
----
 
-## ⚙️ Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Cold_Email_Generator.git
-   cd Cold_Email_Generator/app
-Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Add your portfolio data in resources/my_portfolio.csv.
 
-Run the Streamlit app:
-
-bash
-Copy code
-streamlit run main.py
-📊 Folder Structure
-bash
-Copy code
-app/
- ┣ chains.py          # Defines the LangChain pipeline and prompt logic
- ┣ main.py            # Streamlit UI entry point
- ┣ portfolio.py       # Portfolio matching logic
- ┣ utils.py           # Helper functions
-vectorstore/          # Stores embeddings and Chroma DB files
-my_portfolio.csv      # Portfolio dataset
-🌟 Future Improvements
+**🌟 Future Improvements**
 Add Gmail/SMTP integration for direct email sending
 
 Enable multi-portfolio support for teams
 
 Integrate resume analysis for enhanced personalization
+
 
